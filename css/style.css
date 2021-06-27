@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*
+{
+
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body
+{
+    
+    font-size: 15px;
+    line-height: 1.5;
+    overflow-x: visible;
+    top: 0;
+    left: 0;
+    
+    
+}
+.menu{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    line-height: 40px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    }
+    .sabitleme{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    width: 100%;
+    left:0;
+    right: 0;
+    z-index: 99999;
+    }
+    .banner{
+        width:100%;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        background-color:#efefef;
+    }
+
+.navbar a 
+{
+    text-decoration: none;
+    color: rgba(34,54,69,.7);
+    font-weight: 500;
+}
+.navbar a:hover
+{
+    color: #434244;
+}
+ul
+{
+    list-style-type: none;
+}
+.navbar
+{
+    background: white;
+    min-height: 8vh;
+
+}
+.navbar .navbar-toggler
+{
+    background: #000000;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+    margin-bottom: 12px;
+}
+.navbar .navbar-toggler span
+{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: #fff;
+}
+.navbar .navbar-toggler span + span
+{
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+.navbar .navbar-toggler span + span + span
+{
+    width: 10px;
+    margin-left: 10px;
+}
+.navbar .navbar-expand-lg .navbar-nav .nav-link
+{
+    padding: 2rem 1.2rem;
+    font-size: 1.4rem;
+    position: relative;
+}
+.navbar-nav button
+{
+    padding: 1.2rem 0;
+}
+.navbar-nav .btn
+{
+    background-color:#6C5B7B;
+    color: white;
+    border-radius: 0;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+}
+.navbar-nav .btn:hover
+{
+    background-color: #0a3d62;
+    color: white;
+
+}
+.carousel
+{
+    margin-top: 40px; 
+}
+.navbar .navbar-collapse
+{
+    background: white;
+}
+.figure-img
+{
+    max-height: 480px;
+    text-align: center;
+    
+}
+@media (min-width : 450px)
+{
+    .figure-img
+    {
+        width:450px;
+  height: 250px;
+  display: table;
+  position: relative;
+  overflow: hidden;
+  text-align:center;
+  margin:0 auto;
+    }
+}
+@media (max-width : 1000px)
+{
+    .menu
+    {
+        border: 0px;
+    }
+}
+.turler
+{
+    text-decoration: none;
+    color: rgba(34,54,69,.7);
+}
+.turler:hover
+{
+    color: #434244;
+}
